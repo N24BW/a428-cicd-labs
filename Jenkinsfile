@@ -5,6 +5,7 @@ pipeline {
             args '-p 3000:3000' 
         }
     }
+    # menambahkan tahapan build dan test
     stages {
         stage('Build') { 
             steps {
